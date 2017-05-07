@@ -1,0 +1,7 @@
+navigator, .nav {
+  font-size: 16px;
+  background-color: #f1f7fe;
+  color: #666;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+}

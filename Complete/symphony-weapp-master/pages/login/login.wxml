@@ -1,0 +1,13 @@
+<view class="body wrapper">
+  <form bindsubmit="login">
+    <include src="../template/logo.wxml"/>
+    <input value="{{userName}}" name="userName" placeholder="用户名/邮箱"/>
+    <input value="{{password}}" password name="password" placeholder="密码"/>
+    <view wx:if="{{needCaptcha}}" class="captcha-wrap">
+    <input name="captcha" placeholder="验证码"/>
+    <image bindtap="refreshCaptcha" class="captcha" src="{{captchaURL}}"/>
+    </view>
+    <button disabled="{{disabled}}" type="primary" form-type="submit">登录</button>
+    <button bindtap="goRegister">新用户</button>
+  </form>
+</view>

@@ -1,0 +1,16 @@
+.captcha-wrap {
+  position: relative;
+}
+
+.captcha {
+  height: 44px;
+  width: 102px;
+  position: absolute;
+  right: 2px;
+  top: 1px;
+  z-index: 2;
+}
+
+form button[type=primary] {
+  margin-bottom: 30rpx;
+}

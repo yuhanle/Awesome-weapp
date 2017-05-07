@@ -1,0 +1,50 @@
+scroll-view {
+  height: 100vh;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  padding: 30rpx 0;
+  border-bottom: 1px solid #eee;
+}
+
+image {
+  height: 36px;
+  width: 36px;
+  border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+text {
+  flex: 1;
+  color: #666;
+  margin-left: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  padding: 10px 0;
+}
+
+.page-section-spacing{
+  margin-top: 60rpx;
+}
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item{
+  height: 300rpx;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 100%;
+  height: 300rpx;
+}
+

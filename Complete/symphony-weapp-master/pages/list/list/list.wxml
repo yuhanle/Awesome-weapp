@@ -1,0 +1,6 @@
+<scroll-view scroll-y="true" class="wrapper"  bindscrolltoupper="refresh" bindscrolltolower="loadMore">
+  <view data-isbn="{{item.bookISBN13}}" class="item" wx:for="{{articles}}" bindtap="goDetail">
+    <image src="{{item.articleAuthorThumbnailURL}}" />
+    <text>{{item.articleTitle}}</text>
+  </view>
+</scroll-view>

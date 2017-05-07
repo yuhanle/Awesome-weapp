@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/book/share/share",
+    "pages/book/scan/scan",
+    "pages/list/list/list",
+    "pages/register/register"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4285f4",
+    "navigationBarTitleText": "黑客派",
+    "navigationBarTextStyle": "#fff"
+  }
+}
