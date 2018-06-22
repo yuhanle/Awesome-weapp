@@ -1,0 +1,4 @@
+<view class='container'>
+  <button class='maBtn' type="warn" bindtap='showMa'>显示图形验证码</button>
+  <smsbox id="smsbox" bind:sureAction="sureAction"/>
+</view>

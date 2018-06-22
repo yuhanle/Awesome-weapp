@@ -1,0 +1,7 @@
+<image 
+  src="{{ filepath }}" 
+  data-src="{{ filepath }}" 
+  bindload="_imgOnLoad" 
+  binderror="_imgOnLoadError" 
+  style="height: '100%'; width: '100%'; display: unset;" 
+/>

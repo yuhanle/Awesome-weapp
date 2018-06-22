@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "smsbox": "/components/smsbox/smsbox"
+  }
+}

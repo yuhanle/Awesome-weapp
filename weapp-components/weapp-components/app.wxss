@@ -1,0 +1,18 @@
+page {
+  height: 100%;
+  width: 100%;
+  background: #f8f8f8;
+  font-size: 32rpx;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  font-family: PingFangSC-Regular, sans-serif;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,18 @@
+<view class="contain" hidden="{{!isShow}}">
+  <view class="hd-dialog">
+    <view class="weui-mask"></view>
+    <view class="weui-dialog">
+      <text class="weui-dialog__title">请输入验证码</text>
+      <view class="weui-dialog__content">
+        <input class="input" placeholder="验证码" value="{{ inputvalue }}" bindinput="bindinput"></input>
+        <!-- <image class="code" src="{{ vertifycodeurl }}"></image>  -->
+        <img-loader class="code" src="{{ vertifycodeurl }}"></img-loader> 
+        <image class="refresh" src="/images/ic_refresh.png" bindtap="refresh"></image>
+      </view>
+      <view class="weui-dialog__bottom">
+        <view class="weui-dialog__btn weui-dialog__btn_primary" bindtap="cancleAction">取消</view>
+        <view class="weui-dialog__btn weui-dialog__btn_default" bindtap="sureAction">确定</view>
+      </view>
+    </view>
+  </view>
+</view>
